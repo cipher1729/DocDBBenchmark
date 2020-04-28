@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "DocDBBenchmarkFunction": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "NumberOfDocumentsToInsert": "10000",
+        "ShouldCleanupOnFinish": "true",
+        "ShouldCleanupOnStart": "false",
+        "EndPointUrl": "https://mcapi-dev.documents.azure.com:443/",
+        "DegreeOfParallelism": "100",
+        "DataCollectionName": "CslMetadataDocument",
+        "CollectionThroughput": "12000",
+        "DatabaseName": "MeasuresAutoPilotDB",
+        "CollectionPartitionKey": "/partitionKey",
+        "DocumentTemplateFile": "Player.json",
+        "AuthorizationKey": ""
+      }
+    }
+  }
+}
