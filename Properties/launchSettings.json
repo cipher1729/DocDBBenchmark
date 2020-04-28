@@ -6,7 +6,7 @@
         "NumberOfDocumentsToInsert": "10000",
         "ShouldCleanupOnFinish": "true",
         "ShouldCleanupOnStart": "false",
-        "EndPointUrl": "https://mcapi-dev.documents.azure.com:443/",
+        "EndPointUrl": "",
         "DegreeOfParallelism": "100",
         "DataCollectionName": "CslMetadataDocument",
         "CollectionThroughput": "12000",
