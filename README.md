@@ -1,10 +1,10 @@
 # DocDBBenchmark
 Forked from https://github.com/Azure/azure-cosmos-dotnet-v2/tree/master/samples/documentdb-benchmark
 
-This is pretty much the same code as the above repo. However
+This code has been refactored from above. 
 
 1. It has been converted to .Net core 3.1 to allow it to run on an Azure Function. 
-2. Since Azure functions run time does not support configuration through App.Config, all variables are accepted through either environment variable or console
+2. Since Azure functions v2.0 run time does not support configuration through App.Config, all variables are accepted through either environment variable or console
 3. Add logging . The http call to the function returns the logs that would have been generally streamed to console.
 4. Log message texts have been modified.
 
