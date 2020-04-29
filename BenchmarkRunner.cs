@@ -22,7 +22,7 @@ namespace DocDBBenchmarkFunction
     public sealed class BenchmarkRunner
     {
         private static string DatabaseName = Environment.GetEnvironmentVariable("DatabaseName");
-        private static string DataCollectionName = Environment.GetEnvironmentVariable("CollectionName");
+        private static string DataCollectionName = Environment.GetEnvironmentVariable("DataCollectionName");
         private static int CollectionThroughput = int.Parse(Environment.GetEnvironmentVariable("CollectionThroughput"));
         private static int DegreeOfParallelism = int.Parse(Environment.GetEnvironmentVariable("DegreeOfParallelism"));
         private static int NumberOfDocumentsToInsert = int.Parse(Environment.GetEnvironmentVariable("NumberOfDocumentsToInsert"));
